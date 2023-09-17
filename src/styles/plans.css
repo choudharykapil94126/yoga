@@ -1,0 +1,22 @@
+.plansmain{
+    width:100%;
+    height:540px;
+    background-color:#ddeaeb;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:30px;
+}
+.planleft{
+    width:30%;
+}
+.planright{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:60%;
+}
+.planrightinside{
+    display:flex;
+
+}
