@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+.headerContainer img{
+    margin-left: 30px;
+}
 
 .headerContainer{
     height:10vh;

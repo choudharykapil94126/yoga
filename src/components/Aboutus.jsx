@@ -12,7 +12,7 @@ const Aboutus = () => {
                 <p className="aboutinnercont">Empower individuals to take control of their well-being and lead healthier lives. We strive to provide a comprehensive platform that promotes physical, mental, and emotional wellness.</p>
             </div>
             <div className="middleabout">
-                <img src="https://hips.hearstapps.com/hmg-prod/images/angie-2-1620136244.jpeg?crop=1.00xw:0.799xh;0,0.192xh&resize=360:*" alt="" />
+                <img src="../imgs/yogawomen.png" alt="" />
             </div>
             <div className="rightabout">
                 <p className="aboutinnerhead">Community Support</p>

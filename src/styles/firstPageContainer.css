@@ -58,3 +58,9 @@
     margin-bottom:30px;
     
 }
+.rightmaindiv{
+    display:flex;
+}
+.rightview{
+    margin-left:5px
+}
