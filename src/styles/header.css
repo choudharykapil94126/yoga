@@ -38,9 +38,10 @@
     width:80px;
     height:24px;
     border-radius:10px;
-    background: linear-gradient(#25D366,#03C0FF);
+    background: var(--zanadu, linear-gradient(140deg, #25D366 5.07%, #03C0FF 117.95%));
     color:white;
     border:none;
+    cursor:pointer;
 }
 .btn2{
     width:150px;
@@ -48,4 +49,8 @@
     border-radius: 10px;
     border:none;
     background: linear-gradient(to right, red green);
+    cursor:pointer;
+}
+.rightpart div{
+    cursor: pointer;
 }

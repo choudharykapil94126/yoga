@@ -21,7 +21,7 @@
     border-radius:21px;
     border:none;
     color:white;
-    background: linear-gradient(#25D366,#03C0FF);
+    background: var(--zanadu, linear-gradient(140deg, #25D366 5.07%, #03C0FF 117.95%));
 }
 
 .p1{

@@ -12,8 +12,8 @@ const Header = () => {
             <div>Coaches</div>
             <div>Plans</div>
             <div>Testimonials</div>
-            <button className="btn1">Log In</button>
-            <button className="btn2">For Employers</button>
+            <button className="btn1">Sign In</button>
+            <button className="btn2">Enterprise Client</button>
         </div>
     </div>
     

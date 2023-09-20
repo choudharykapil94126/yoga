@@ -1,7 +1,7 @@
 .scrolldiv{
     width:100%;
     height:540px;
-    background: linear-gradient(#25D366,#03C0FF);
+    background: var(--zanadu, linear-gradient(140deg, #25D366 5.07%, #03C0FF 117.95%));
     padding:50px;
     text-align:center;
     color:white;
