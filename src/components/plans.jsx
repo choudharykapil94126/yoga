@@ -5,49 +5,92 @@ const plans = () => {
     <>
     <div className="plansmain">
         <div className="planleft">
-            <div className="planlefthead">DON'T DELAY, START YOUR 14-DAY FREE TRIAL <b>TODAY</b></div>
+            <div className="planlefthead">DON'T DELAY, START YOUR 14-DAY FREE TRIAL <span>TODAY</span></div>
             <div className="planleftcont">You will discover a world of tailored fitness programs designed to meet your unique goals. With expert guidance, personalized routines, and progress tracking, to embark on a transformative fitness journey that is customized to your needs.</div>
         </div>
         <div className="planright">
             <div className="planrightinside">
-                <button></button>
+                <button className="headbutton">Basic Plan</button>
                 <div className="planrighttop">
-                    <p>$120/year</p>
+                    <p className="dollar">$</p>
+                    <p className="mainplanrighttop">120<span>/year</span></p>
                     <div className="planrightmiddle">
-                        <p>Full length lessons</p>
-                        <p>Group Sessions</p>
-                        <p>Speciality Coaches</p>
-                        <p>Health Coach</p>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Full length lessons</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Group Sessions</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Speciality Coaches</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Health Coach</p>
+                        </div>
                     </div>
-                    <button>Select Plan</button>
+                    <button className="planlastbutton">Select Plan</button>
                 </div>
                 
             </div>
             <div className="planrightinside">
-                <button></button>
+            <button className="headbutton">Basic Plus Plan</button>
                 <div className="planrighttop">
-                    <p>$120/year</p>
+                    <p className="dollar">$</p>
+                    <p className="mainplanrighttop">180<span>/year</span></p>
                     <div className="planrightmiddle">
-                        <p>Full length lessons</p>
-                        <p>Group Sessions</p>
-                        <p>Speciality Coaches</p>
-                        <p>Health Coach</p>
+                    <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Full length lessons</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Group Sessions</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">One on One Sessions</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Health Coach & Speciality Coaches</p>
+                        </div>
                     </div>
-                    <button>Select Plan</button>
+                    <button className="planlastbutton">Select Plan</button>
                 </div>
                 
             </div>
             <div className="planrightinside">
-                <button></button>
+                <button className="headbutton">Premium Plan</button>
                 <div className="planrighttop">
-                    <p>$120/year</p>
+                    <p className="dollar">$</p>
+                    <p className="mainplanrighttop">240<span>/year</span></p>
                     <div className="planrightmiddle">
-                        <p>Full length lessons</p>
-                        <p>Group Sessions</p>
-                        <p>Speciality Coaches</p>
-                        <p>Health Coach</p>
+                    <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Full length lessons</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Group Sessions</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">One on One Sessions</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Camps & Workshops</p>
+                        </div>
+                        <div className="plandowncontainer">
+                            <img src="../logo/tick.png" alt="" />
+                            <p className="tickrightpehra">Health Coach & Speciality Coaches</p>
+                        </div>
                     </div>
-                    <button>Select Plan</button>
+                    <button className="planlastbutton">Select Plan</button>
                 </div>
                 
             </div>
